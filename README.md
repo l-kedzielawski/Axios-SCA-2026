@@ -317,17 +317,6 @@ The malicious dropper (`setup.js`) self-deletes after executing and replaces `no
 
 ---
 
-## Contributing
-
-PRs welcome — especially for:
-
-- Windows-specific detection scripts (PowerShell)
-- Additional SIEM / log query examples (Splunk, Datadog, Elastic)
-- Wazuh / Falco rules for detecting this class of attack at runtime
-- Updated IoCs if new related packages are identified
-
----
-
 ## License
 
 MIT — use freely, share widely.

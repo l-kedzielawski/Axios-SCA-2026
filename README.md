@@ -321,6 +321,11 @@ The malicious dropper (`setup.js`) self-deletes after executing and replaces `no
 
 MIT — use freely, share widely.
 
+## Contact
+
+Lukasz Kedzielawski
+l.kedzielawski@gmail.com
+
 ---
 
 *Last updated: March 31, 2026. This is a rapidly evolving incident. Check linked sources for the latest details.*

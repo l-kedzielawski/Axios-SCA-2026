@@ -186,17 +186,16 @@ grep "sfrclak" /var/log/ufw.log 2>/dev/null
 Run it with:
 
 ```bash
-chmod +x axios-sca-check.sh
-./axios-sca-check.sh
-# or from a specific project dir:
-cd /your/project && ~/axios-sca-2026/check.sh
+chmod +x scripts/axios-sca-check.sh
+./scripts/axios-sca-check.sh                 # current directory
+./scripts/axios-sca-check.sh /path/to/project # specific project
 ```
 
 ### Node.js check (cross-platform) ./scripts/
 
 ```bash
-node check.mjs              # current directory
-node check.mjs /path/to/project  # specific project
+node scripts/check.mjs              # current directory
+node scripts/check.mjs /path/to/project  # specific project
 ```
 
 ---
